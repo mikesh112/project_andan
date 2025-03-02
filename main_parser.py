@@ -37,45 +37,45 @@ def get_wildberries_price(product_id):
 
 
 def main():
-    current_time = datetime.now().replace(minute=0, second=0, microsecond=0)  # Текущее время с точностью до часа
+    current_time = datetime.now().replace(minute=0, second=0, microsecond=0)  
     print(f"Функция запущена в: {current_time}")
     prices = []
-    # Преобразуем время в строковый формат, чтобы использовать в качестве индекса
+    
     formatted_time = current_time.strftime("%Y-%m-%d %H:%M:%S")
-    # Проверим, есть ли уже строка с таким временем
+    
     if datetime.strptime(main_df.iloc[-1, 0], '%Y-%m-%d %H:%M:%S') != \
             datetime.strptime(formatted_time, '%Y-%m-%d %H:%M:%S'):
-        # Цикл по всем товарам
-        for product_id in main_df.columns[1:]:  # Первый столбец это дата
+        
+        for product_id in main_df.columns[1:]:  
             price = get_wildberries_price(product_id)
 
-            # Добавляем цену в список
+            
             prices.append(price)
 
-        # Добавляем дату в новую строку
+        
         new_row = [formatted_time] + prices
         print(f"Новая строка добавлена: {new_row}")
 
-        # Загрузжаем файл и открываем активный лист (он у нас один) затем находим первую пустую строку
+        
         wb = load_workbook(file_path)
         ws = wb.active
         next_row = ws.max_row + 1
 
-        # Загружаем данные в файл
+        
         for col, value in enumerate(new_row, 1):
             ws.cell(row=next_row, column=col, value=value)
 
-        # Сохраняем изменения в файл
+        
         wb.save(file_path)
 
     else:
         print(f"Строка с датой {formatted_time} уже существует.")
 
 
-# Настроим задачу на каждый час
-schedule.every().hour.at(":01").do(main)  # Запускать функцию каждый час в 00 минут
+
+schedule.every().hour.at(":01").do(main)  
 
 
 while True:
     schedule.run_pending()
-    time.sleep(600)  # Проверка каждую минуту, чтобы запускать задачу вовремя
+    time.sleep(600)  
