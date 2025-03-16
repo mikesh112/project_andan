@@ -53,9 +53,5 @@
 
 ## Шаг 7: Мемы
 Чтобы вы и мы не скучали мы сделали подборку с актуальными на момент разработки проекта мемами, которые поднимали нам настроение. Надеемся вам понравится
+
 <a href="https://ibb.co/5hTTSfyr"><img src="https://i.ibb.co/PGxxPfnc/photo-2025-03-16-18-57-00.jpg" alt="photo-2025-03-16-18-57-00" border="0"></a>
-<a href="https://ibb.co/0jcDpDCT"><img src="https://i.ibb.co/vxHwCw3p/photo-2025-03-16-18-57-22.jpg" alt="photo-2025-03-16-18-57-22" border="0"></a>
-<a href="https://ibb.co/RkxtP7T1"><img src="https://i.ibb.co/TxVJRrMZ/photo-2025-03-16-18-57-29.jpg" alt="photo-2025-03-16-18-57-29" border="0"></a>
-<a href="https://ibb.co/8Dn9mjpC"><img src="https://i.ibb.co/mCr4RHwj/photo-2025-03-16-18-57-34.jpg" alt="photo-2025-03-16-18-57-34" border="0"></a>
-<a href="https://ibb.co/dJKq7TLZ"><img src="https://i.ibb.co/LhpWvFJK/photo-2025-03-16-18-57-50.jpg" alt="photo-2025-03-16-18-57-50" border="0"></a>
-<a href="https://ibb.co/TDv53067"><img src="https://i.ibb.co/9m8j5461/photo-2025-03-16-19-00-30.jpg" alt="photo-2025-03-16-19-00-30" border="0"></a>
