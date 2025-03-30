@@ -1,19 +1,19 @@
 proxy_server_Netherlands = {
-            "server": "163.198.214.184:8000",
-            "username": '6W7q3L',
-            "password": 'CzKFLx',
+            "server": "",
+            "username": '',
+            "password": '',
         }
 
 proxy_server_USA = {
-            "server": "45.85.161.69:8000",
-            "username": 'ucQYQL',
-            "password": 'SD1Pju',
+            "server": "",
+            "username": '',
+            "password": '',
         }
 
 proxy_server_Germany = {
-            "server": "45.141.179.31:8000",
-            "username": 'yadpZM',
-            "password": 'An82bx',
+            "server": "",
+            "username": '',
+            "password": '',
         }
 
 proxies = [proxy_server_Netherlands, proxy_server_USA, proxy_server_Germany]
